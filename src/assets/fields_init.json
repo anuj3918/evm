@@ -1,0 +1,9 @@
+{
+  "fieldsData":[
+    "total_transactions",
+    "negative_cycles",
+    "positive_cycles",
+    "success_percentage",
+    "threshold"
+  ]
+}

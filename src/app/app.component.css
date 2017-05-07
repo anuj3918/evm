@@ -1,0 +1,63 @@
+/* This would be bootstrap-custom.css */
+
+/* ----- Custom Theme ----- */
+
+html {
+  height: 100%;
+}
+
+body {
+  background: -webkit-linear-gradient(#0d263c,#030714) no-repeat fixed;
+  background: linear-gradient(#0d263c,#030714) no-repeat fixed;
+  color: #ffffff;
+  height: 100%;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+header h1 {
+  color: #66d9f7;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #222;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
